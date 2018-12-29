@@ -1,0 +1,399 @@
+/*font*/
+@import url('https://fonts.googleapis.com/css?family=Elsie');
+
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+
+body,html{
+    height: 100%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+
+}
+
+/*Nav*/
+
+.dark{
+    background-color: #333333;
+}
+.txtc{
+    color: black!important;
+}
+.btn-group{
+    margin-right: 10px;
+}
+.btn-secondary {
+    color: #fff;
+    background-color: #333333;
+    border-color: none;
+}
+.us{
+    height: 20px;
+    width: 20px;
+}
+.btn-secondary:hover{
+        background-color: #333333;
+}
+.dropdown-menu {
+    padding: 10px 0 20px 0;
+}
+.dropdown-item{
+    margin-bottom: 5px;
+}
+.nav a{
+    color: white;
+}
+.nav a:hover{
+    color: #FF681A;
+}
+.margfix{
+    margin-left: 27%!important;
+}
+#logo{
+    font-family: 'Elsie', cursive;
+    font-size: 40px;
+    color: black;
+    font-weight: bold;
+}
+.login , .register{
+    color: white!important;
+    text-decoration: none!important;
+}
+.login:hover{
+    color: #FF681A!important;
+}
+.register:hover{
+    color: #FF681A!important;
+}
+
+/* Header */
+
+.header{
+    position: relative;
+}
+
+.my-nav1{
+    position: absolute;
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+   
+}
+.my-nav2{
+    position: absolute;
+    width: 100%; 
+    z-index: 99;
+    top: 40px;
+}
+
+.my-carousel{
+    position: absolute!important;
+    top: 20%;
+    z-index: 98;
+}
+.carousel-inner{
+    height: 100vh;
+    width: 100%;
+    top: 100px;
+} 
+.carousel-item img{
+    width: 100%;
+}
+
+.rightside{
+    text-align: right!important;
+}
+#responsive-heading{
+    margin-right: 70px;
+}
+.carousal-slide1{
+    margin-right: 12%;
+}
+
+.carousel-caption {
+    position: absolute;
+    left: 10%;
+    /* z-index: 10;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    top: 25%;
+}
+.carousel-caption h1{
+    text-transform: capitalize;
+    text-shadow: 1px 1px 10px black;
+}
+.carousel-caption p{
+    padding: 15px 0;
+    text-shadow: 1px 1px 5px black;
+
+}
+.btn-success{
+    background-color: #FF681A;
+    color:white;
+}
+.btn-success:hover{
+    background-color:#151515;
+    color:#FF681A;
+}
+
+/*Multiple Sections*/
+
+.black{
+     -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+}
+.black:hover{
+    cursor: pointer;
+    filter: none;
+}
+
+#fix-card{
+    object-fit: cover;
+    height: 50vh;
+}
+.card-img-overlay h2{
+    position: absolute;
+    top: 20%;
+    right: 10%;
+}
+.card-img-overlay button{
+    position: absolute;
+    top: 40%;
+    right: 17%;
+}
+.sections{
+    position: absolute;
+    top: 40%;
+}
+.sections h1,h4,h5{
+    color: white;
+    -webkit-text-stroke: 1px black;
+    cursor: pointer;
+}
+
+/*New Arrival*/
+
+.newarrival{
+    height: 320px!important;
+    object-fit: fill;
+}
+.hov:hover{
+    color: #FF681A!important;
+}
+
+
+/*Client Testimonials*/
+
+.fixing-carousal{
+    height: auto!important;
+    top: 0px!important;
+}
+
+.clr{
+    background-color: #333333;
+}
+
+
+.cardheight img{
+    height:200px;
+}
+#profile {
+    border-radius: 50%;
+    border: gray solid 8px;
+    box-shadow: 0px 5px 10px black;
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    bottom: 35%;
+    right: 45%;
+    
+}
+.client{
+    position: absolute;
+    bottom: 15%;
+}
+
+.cardheight{
+    height: 300px;
+    background-color: transparent;
+}
+
+.text-center{
+    padding-top: 50px;
+}
+
+.name{
+    color: white;
+    margin-top: 120px;
+}
+.name2{
+    color: white;
+}
+.indi{
+    bottom: -30px;
+}
+
+#Testimonials>.indi>li {
+    border-radius: 12px;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+}
+#Testimonials>.indi>li.active {
+    background-color: gray;
+}
+
+/*End of Client Testimonials*/
+
+
+/*Our Policy*/
+
+.borderclr{
+    border: none!important;
+}
+
+/* Download our app */
+
+.fix-card2{
+    object-fit: cover;
+    height: 100vh!important;
+}
+
+
+.app{
+    position: absolute;
+    top: 65%;
+    left: 7%;
+    padding: 0px;
+}
+.android{
+    width: 180px;
+}
+.ios{
+    width: 180px;
+}
+
+/*Footer*/
+
+#logo2{
+    
+    font-family: 'Elsie', cursive;
+    font-size: 60px;
+    color: black;
+    font-weight: bold;
+}
+#bg{
+    background-image: url(../images/footer3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+        
+}
+
+
+/*responsive elements*/
+
+/*Carousal*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #responsive-heading {font-size:20px;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #responsive-heading {font-size: 20px;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #responsive-heading {font-size:30px;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #responsive-heading {font-size:40px;}
+} 
+
+
+
+
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #responsive-para {font-size: 20px;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #responsive-para {font-size:30px;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #responsive-para {font-size:40px;}
+} 
+
+
+/*Sections Heading*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #responsive-heading1 {font-size:30px;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #responsive-heading1 {font-size: 40px;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #responsive-heading1 {font-size:50px;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #responsive-heading1 {font-size:60px;}
+} 
+
+
+
+/*Client Testimonials*/
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #responsive-testi1 {font-size:15px;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #responsive-testi1 {font-size: 20px;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #responsive-testi1 {font-size:30px;}
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #responsive-testi2 {font-size:10px;}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #responsive-testi2 {font-size: 15px;}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #responsive-testi2 {font-size: 25px;}
+} 
